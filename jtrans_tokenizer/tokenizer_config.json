@@ -1,0 +1,1 @@
+{"do_lower_case": false, "do_basic_tokenize": false, "never_split": null, "unk_token": "[UNK]", "sep_token": "[SEP]", "pad_token": "[PAD]", "cls_token": "[CLS]", "mask_token": "[MASK]", "tokenize_chinese_chars": false, "strip_accents": null, "tokenizer_class": "BertTokenizer"}
