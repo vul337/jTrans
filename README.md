@@ -72,7 +72,7 @@ This project is not possible without multiple great open-sourced code bases. We 
 * [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers)
 
 ## Bibtex
-If this work is helpful for your research, please consider citing the following BibTeX entry.
+If this work or BinaryCorp dataset are helpful for your research, please consider citing the following BibTeX entry.
 
 ```
 @article{wang2022jtrans,
