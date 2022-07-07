@@ -1,9 +1,10 @@
 # jTrans
-Official code of **jTrans: Jump-Aware Transformer for Binary Code Similarity Detection**
+This repo is the official code of **jTrans: Jump-Aware Transformer for Binary Code Similarity Detection**. 
 
 ![Illustrating the performance of the proposed jTrans](/figures/poolsizecompare.png)
 
 ## News
+* \[2022/7/7\] We update BinaryCorp with the original [binaries](https://cloud.vul337.team:8443/s/W57ZWXxn7zSKG4q).
 * \[2022/6/18\] We release the code and models of jTrans. 
 * \[2022/6/9\] We release the preprocessing code and [BinaryCorp](https://cloud.vul337.team:8443/s/cxnH8DfZTADLKCs), the dataset we used in our paper.
 * \[2022/5/26\] jTrans is now on [ArXiv](https://arxiv.org/pdf/2205.12713.pdf).
@@ -64,6 +65,7 @@ Make sure you have IDA pro 7.5+ and following the instructions at [datautils](da
 ## Dataset
 - We present a new large-scale and diversified dataset, [BinaryCorp](https://cloud.vul337.team:8443/s/cxnH8DfZTADLKCs), for the task of binary code similarity detection. 
 - The description of the dataset can be found at [here](datautils/README.md) and we give an [example](datautils/playdata.py) for using BinaryCorp.
+- If you need to use features that we do not provide in advance, such as call graphs, you can download the raw binaries from [here](https://cloud.vul337.team:8443/s/W57ZWXxn7zSKG4q).
 
 ## Acknowledgement
 This project is not possible without multiple great open-sourced code bases. We list some notable examples below.
