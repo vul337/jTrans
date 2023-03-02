@@ -10,7 +10,7 @@ This repo is the official code of **jTrans: Jump-Aware Transformer for Binary Co
 * \[2022/6/9\] We release the preprocessing code and [BinaryCorp](https://cloud.vul337.team:8443/s/cxnH8DfZTADLKCs), the dataset we used in our paper.
 * \[2022/5/26\] jTrans is now on [ArXiv](https://arxiv.org/pdf/2205.12713.pdf).
 
-# Writeups
+## Writeups
 * [Binary Diffing](https://github.com/USTC-Hackergame/hackergame2022-writeups/tree/master/official/%E7%81%AB%E7%9C%BC%E9%87%91%E7%9D%9B%E7%9A%84%E5%B0%8F%20E#jtrans)
 * Welcome PRs for more writeups :)
 
