@@ -227,10 +227,10 @@ if __name__ == '__main__':
     for param in model.embeddings.parameters():
         param.requires_grad = False
 
-        if freeze_layer_count != -1:
-            for layer in model.encoder.layer[:freeze_layer_count]:
-                for param in layer.parameters():
-                    param.requires_grad = False
+    if freeze_layer_count != -1:
+        for layer in model.encoder.layer[:freeze_layer_count]:
+            for param in layer.parameters():
+                param.requires_grad = False
     print(model)
 
     logger.info("Done ...")
