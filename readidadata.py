@@ -137,7 +137,7 @@ def parse_asm(code):   #handle ida code to better quality code for NLP model
     if operand2!=None:
         operand2=parse_operand(operator,2,operand2)
     if operand3!=None:
-        operand3=parse_operand(operator,3,operand2)
+        operand3=parse_operand(operator,3,operand3)
     return operator,operand1,operand2,operand3,annotation
 def isregister(x):
     registers=['rax','rbx','rcx','rdx','esi','edi','rbp','rsp','r8','r9','r10','r11','r12','r13','r14','r15']
