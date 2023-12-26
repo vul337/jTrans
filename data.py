@@ -173,7 +173,7 @@ class FunctionDataset_CL_Load(torch.utils.data.Dataset): #binary version dataset
     def __getitem__(self, idx):             #also return bad pair
 
         pairs=self.datas[idx]
-        if self.opt==None:
+        if self.opt!=None:
             pos=random.randint(0,len(pairs)-1)
             pos2=random.randint(0,len(pairs)-1)
             while pos2==pos:
